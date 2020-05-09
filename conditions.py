@@ -1,7 +1,13 @@
-customer = {
-    "name": "John Smith",
-    "age": 30,
-    "is_verified": True
+phone = input("phone: ")
+digits_mapping = {
+"1": "uno",
+"2": "dos" , 
+"3": "tres",
+"4": "cuatro"
 }
-customer ["birthdate"] = "Jan 1 1980" 
-print(customer["birthdate"])
+output = ""
+for ch in phone:
+    output += digits_mapping.get(ch, "!") + " "
+    print(output)
+
+
