@@ -1,5 +1,3 @@
-i = 1
-while i <= 5:
-    print('*' * i)
-    i = i + 1
-print("done")
+secret_numbre = 9
+i = 0
+while i <= 3:
