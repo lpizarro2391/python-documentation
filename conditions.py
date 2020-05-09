@@ -1,6 +1,8 @@
-has_good_credit = True
-has_criminal_record = True
+temperature = 35
 
-if has_good_credit and not has_criminal_record:
-    print("Eligle for loan")
+if temperature > 30:
+    print("It's a hot day")
+else:
+    print("It's not a hot day")
+
 
