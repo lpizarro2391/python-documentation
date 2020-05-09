@@ -1,3 +1,6 @@
-coordinates = (1, 2, 3)
-x, y, z = coordinates
-print(x)
+customer = {
+    "name": "John Smith",
+    "age": 30,
+    "is_verified": True
+}
+print(customer["name"])
