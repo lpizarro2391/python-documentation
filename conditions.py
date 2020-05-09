@@ -1,8 +1,5 @@
-weight = int(input('Weigh: '))
-unit = input('(L)bs or (K)g:')
-if unit.upper() == "L":
-    converted =  weight * 0.45
-    print(f"You are{converted} kilos")
-else: 
-    converted = weight / 0.45
-    print(f"You are   60{converted} pounds")
+i = 1
+while i <= 5:
+    print(i)
+    i = i + 1
+print("done")
