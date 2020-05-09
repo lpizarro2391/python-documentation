@@ -1,11 +1,7 @@
-def saludo_usuario(first_name,last_name):
-    print(f'Hi {first_name}{last_name} !')
-    print('bienvenidos a bordo')
+def square(number):
+    return number* number
 
 
-
-print("start")
-saludo_usuario("John", "Perez")
-saludo_usuario("Mary", "Castro")
-print("finish")
+result = square(3)
+print(result)
 
