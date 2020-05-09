@@ -1,9 +1,10 @@
-def saludo_usuario():
-    print('hola todos')
+def saludo_usuario(name):
+    print(f'Hi {name} !')
     print('bienvenidos a bordo')
 
 
 print("start")
-saludo_usuario()
+saludo_usuario("John")
+saludo_usuario("Mary")
 print("finish")
 
