@@ -1,11 +1,8 @@
-name = "dfdfafadffadafdafadfa"
-
-if len(name) < 3:
-    print("name must be at least 3 caracters")
-elif len(name) > 20:
-    print("name bus be a maximun of 50 characters")
-else:
-    print("Name looks good")
-print(len(name))
-
-
+weight = int(input('Weigh: '))
+unit = input('(L)bs or (K)g:')
+if unit.upper() == "L":
+    converted =  weight * 0.45
+    print(f"You are{converted} kilos")
+else: 
+    converted = weight / 0.45
+    print(f"You are   60{converted} pounds")
