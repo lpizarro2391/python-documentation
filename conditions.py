@@ -1,4 +1,6 @@
-numbers = [5, 2, 1, 5,  7, 4]
-numbers.sort()
-numbers.reverse()
-print(numbers)
+numbers = [5, 2, 4, 6,  3, 4, 6, 1]
+uniques = []
+for number in numbers:
+    if number not in uniques:
+        uniques.append(number)
+print(uniques)
