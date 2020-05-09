@@ -1,2 +1,2 @@
-for  item in ['Mosh', 'Josh', 'SARA']:
+for  item in  range(10):
     print(item)
