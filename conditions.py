@@ -1,12 +1,9 @@
-message = input(">")
-words = message.split(' ')
-emojis = {
-    ":)": "😀",
-    ":(": "😟"
-}
-output = ""
-for word in words:
-    output += emojis.get(word, word) + " "
-print(output)
+def saludo_usuario():
+    print('hola todos')
+    print('bienvenidos a bordo')
 
+
+print("start")
+saludo_usuario()
+print("finish")
 
