@@ -1,12 +1,15 @@
-class Person:
-    def __init__(self, name):
-        self.name = name
+class Mammal:
+    def walk(self):
+        print("walk")
 
-    def talk(self):
-        print(f"Hi, I am {self.name}")
-    
 
-john = Person("John Smith")
-john.talk()
-john = Person("Bob Smith")
-john.talk()
+class Dog(Mammal):
+    pass
+
+
+class Cat(Mammal):
+   pass
+
+dog1 = Dog()
+dog1.walk()
+
