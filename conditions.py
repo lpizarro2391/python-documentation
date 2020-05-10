@@ -4,12 +4,13 @@ class Mammal:
 
 
 class Dog(Mammal):
-    pass
-
+    def bark(self):
+        print("bark")
 
 class Cat(Mammal):
-   pass
+   def be_annoying(self):
+       print("annoying")
 
-dog1 = Dog()
-dog1.walk()
+cat1 = Cat()
+cat1.
 
