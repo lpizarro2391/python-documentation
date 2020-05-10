@@ -8,3 +8,5 @@ class Person:
 
 john = Person("John Smith")
 john.talk()
+john = Person("Bob Smith")
+john.talk()
