@@ -11,5 +11,5 @@ class Point:
 
 
 point = Point(10, 20)
-point.x = 10
+point.x = 11
 print(point.x)
