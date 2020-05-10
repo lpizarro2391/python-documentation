@@ -12,5 +12,5 @@ class Cat(Mammal):
        print("annoying")
 
 cat1 = Cat()
-cat1.
+cat1.be_annoying()
 
