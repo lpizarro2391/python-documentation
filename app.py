@@ -1,3 +1,4 @@
-from ecommerce.shipping import calc_shipping
+import random
 
-calc_shipping()
+for i in range(3):
+    print(random.random())
