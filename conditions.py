@@ -1,6 +1,7 @@
 import moduloconverter
+from moduloconverter import kg_to_lbs
 
-print(moduloconverter.kg_to_lbs(70))
+print(kg_to_lbs(70))
 
 
 
